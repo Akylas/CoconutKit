@@ -215,6 +215,168 @@
 		6FF3E6F015D2E4C900AB9A53 /* HLSTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3E6EE15D2E4C800AB9A53 /* HLSTransition.m */; };
 		AA747D9F0F9514B9006C5449 /* CoconutKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* CoconutKit-Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D5080E61183A86E00015D0D6 /* HLSVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8366041588CC690044E572 /* HLSVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5080E62183A86E20015D0D6 /* HLSVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8366051588CC690044E572 /* HLSVector.m */; };
+		D5253992183A8703006FF1BB /* CAMediaTimingFunction+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F41D23E15E6AD9A009A2384 /* CAMediaTimingFunction+HLSExtensions.m */; };
+		D5253993183A8709006FF1BB /* CAMediaTimingFunction+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F41D23D15E6AD9A009A2384 /* CAMediaTimingFunction+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5253994183A872C006FF1BB /* HLSConverters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51D14BA0494007EE121 /* HLSConverters.m */; };
+		D5253995183A8730006FF1BB /* HLSConverters.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE51C14BA0494007EE121 /* HLSConverters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5253996183A873B006FF1BB /* HLSZeroingWeakRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB991F31523A89000E13BED /* HLSZeroingWeakRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5253997183A873C006FF1BB /* HLSZeroingWeakRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB991F41523A89000E13BED /* HLSZeroingWeakRef.m */; };
+		D5253998183A873F006FF1BB /* HLSUserInterfaceLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52B14BA0494007EE121 /* HLSUserInterfaceLock.m */; };
+		D5253999183A8741006FF1BB /* HLSUserInterfaceLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52A14BA0494007EE121 /* HLSUserInterfaceLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D525399A183A874A006FF1BB /* NSArray+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52F14BA0494007EE121 /* NSArray+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D525399B183A874F006FF1BB /* NSString+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE54314BA0494007EE121 /* NSString+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D525399C183A8752006FF1BB /* NSString+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54414BA0494007EE121 /* NSString+HLSExtensions.m */; };
+		D525399D183A8755006FF1BB /* NSArray+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53014BA0494007EE121 /* NSArray+HLSExtensions.m */; };
+		D538C291183A82D100143F45 /* CoconutKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* CoconutKit-Prefix.pch */; };
+		D538C35E183A82D100143F45 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCDA16B14DAE5EF00ED1CD1 /* QuartzCore.framework */; };
+		D538C35F183A82D100143F45 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC900F213D465F700834900 /* CoreData.framework */; };
+		D538C360183A82D100143F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D538C361183A82D100143F45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D0975123F53F500FCF2AF /* CoreGraphics.framework */; };
+		D538C362183A82D100143F45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D09A0123F545D00FCF2AF /* UIKit.framework */; };
+		D538C363183A82D100143F45 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA838786131EAD1000ECAED3 /* MessageUI.framework */; };
+		D538C36C183A853A00143F45 /* CoconutKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* CoconutKit-Prefix.pch */; };
+		D538C439183A853A00143F45 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCDA16B14DAE5EF00ED1CD1 /* QuartzCore.framework */; };
+		D538C43A183A853A00143F45 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC900F213D465F700834900 /* CoreData.framework */; };
+		D538C43B183A853A00143F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D538C43C183A853A00143F45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D0975123F53F500FCF2AF /* CoreGraphics.framework */; };
+		D538C43D183A853A00143F45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D09A0123F545D00FCF2AF /* UIKit.framework */; };
+		D538C43E183A853A00143F45 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA838786131EAD1000ECAED3 /* MessageUI.framework */; };
+		D538C443183A855600143F45 /* CALayer+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F41D22915E6A527009A2384 /* CALayer+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C445183A855600143F45 /* CAMediaTimingFunction+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F41D23D15E6AD9A009A2384 /* CAMediaTimingFunction+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C447183A855600143F45 /* HLSApplicationPreLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3E3E8115A2277D007E78BD /* HLSApplicationPreLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C449183A855600143F45 /* HLSAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE51914BA0494007EE121 /* HLSAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C44B183A855600143F45 /* HLSConverters.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE51C14BA0494007EE121 /* HLSConverters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C44D183A855600143F45 /* HLSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE51E14BA0494007EE121 /* HLSError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C44F183A855600143F45 /* HLSFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCA2DD11679E36D0011CFDA /* HLSFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C451183A855600143F45 /* HLSFloat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52014BA0494007EE121 /* HLSFloat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C453183A855600143F45 /* HLSKeyboardInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52214BA0494007EE121 /* HLSKeyboardInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C454183A855600143F45 /* HLSKeyboardInformation.m in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52314BA0494007EE121 /* HLSKeyboardInformation.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C455183A855600143F45 /* HLSNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52414BA0494007EE121 /* HLSNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C457183A855600143F45 /* HLSOptionalFeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3E3EC815A38D62007E78BD /* HLSOptionalFeatures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C458183A855600143F45 /* HLSRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52814BA0494007EE121 /* HLSRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C45A183A855600143F45 /* HLSStandardFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCA2DD61679E3B10011CFDA /* HLSStandardFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C45C183A855600143F45 /* HLSUserInterfaceLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52A14BA0494007EE121 /* HLSUserInterfaceLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C45E183A855600143F45 /* HLSValidable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52C14BA0494007EE121 /* HLSValidable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C45F183A855600143F45 /* HLSValidators.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52D14BA0494007EE121 /* HLSValidators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C461183A855600143F45 /* HLSVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8366041588CC690044E572 /* HLSVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C463183A855600143F45 /* HLSZeroingWeakRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB991F31523A89000E13BED /* HLSZeroingWeakRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C465183A855600143F45 /* NSArray+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52F14BA0494007EE121 /* NSArray+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C467183A855600143F45 /* NSBundle+HLSDynamicLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE53114BA0494007EE121 /* NSBundle+HLSDynamicLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C469183A855600143F45 /* NSBundle+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE53314BA0494007EE121 /* NSBundle+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C46B183A855600143F45 /* NSCalendar+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE53514BA0494007EE121 /* NSCalendar+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C46D183A855600143F45 /* NSData+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE53714BA0494007EE121 /* NSData+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C46F183A855600143F45 /* NSDate+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE53914BA0494007EE121 /* NSDate+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C471183A855600143F45 /* NSDateFormatter+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE53B14BA0494007EE121 /* NSDateFormatter+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C473183A855600143F45 /* NSDictionary+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE53D14BA0494007EE121 /* NSDictionary+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C475183A855600143F45 /* NSError+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE53F14BA0494007EE121 /* NSError+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C477183A855600143F45 /* NSMutableArray+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2D46FB15761AA500EF5E4F /* NSMutableArray+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C479183A855600143F45 /* NSObject+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE54114BA0494007EE121 /* NSObject+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C47B183A855600143F45 /* NSSet+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2D46F715761A8600EF5E4F /* NSSet+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C47D183A855600143F45 /* NSString+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE54314BA0494007EE121 /* NSString+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C47F183A855600143F45 /* NSTimeZone+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE54514BA0494007EE121 /* NSTimeZone+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C481183A855600143F45 /* NSURLRequest+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC8CB881574BFC10014B37B /* NSURLRequest+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C483183A855600143F45 /* UIColor+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE54714BA0494007EE121 /* UIColor+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C485183A855600143F45 /* UIControl+HLSExclusiveTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE54914BA0494007EE121 /* UIControl+HLSExclusiveTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C487183A855600143F45 /* UIImage+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE54B14BA0494007EE121 /* UIImage+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C489183A858C00143F45 /* CALayer+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6F41D22915E6A527009A2384 /* CALayer+HLSExtensions.h */; };
+		D538C48A183A858C00143F45 /* CALayer+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F41D22A15E6A527009A2384 /* CALayer+HLSExtensions.m */; };
+		D538C48B183A858C00143F45 /* CAMediaTimingFunction+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6F41D23D15E6AD9A009A2384 /* CAMediaTimingFunction+HLSExtensions.h */; };
+		D538C48C183A858C00143F45 /* CAMediaTimingFunction+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F41D23E15E6AD9A009A2384 /* CAMediaTimingFunction+HLSExtensions.m */; };
+		D538C48D183A858C00143F45 /* HLSApplicationPreLoader.h in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E3E8115A2277D007E78BD /* HLSApplicationPreLoader.h */; };
+		D538C48E183A858C00143F45 /* HLSApplicationPreLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E3E8215A2277D007E78BD /* HLSApplicationPreLoader.m */; };
+		D538C48F183A858C00143F45 /* HLSAssert.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51914BA0494007EE121 /* HLSAssert.h */; };
+		D538C490183A858C00143F45 /* HLSAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51A14BA0494007EE121 /* HLSAssert.m */; };
+		D538C491183A858C00143F45 /* HLSConverters.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51C14BA0494007EE121 /* HLSConverters.h */; };
+		D538C492183A858C00143F45 /* HLSConverters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51D14BA0494007EE121 /* HLSConverters.m */; };
+		D538C493183A858C00143F45 /* HLSError.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51E14BA0494007EE121 /* HLSError.h */; };
+		D538C494183A858C00143F45 /* HLSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51F14BA0494007EE121 /* HLSError.m */; };
+		D538C495183A858C00143F45 /* HLSFileManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA2DD11679E36D0011CFDA /* HLSFileManager.h */; };
+		D538C496183A858C00143F45 /* HLSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA2DD21679E36D0011CFDA /* HLSFileManager.m */; };
+		D538C497183A858C00143F45 /* HLSFloat.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52014BA0494007EE121 /* HLSFloat.h */; };
+		D538C498183A858C00143F45 /* HLSFloat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52114BA0494007EE121 /* HLSFloat.m */; };
+		D538C499183A858C00143F45 /* HLSKeyboardInformation.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52214BA0494007EE121 /* HLSKeyboardInformation.h */; };
+		D538C49A183A858C00143F45 /* HLSKeyboardInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52314BA0494007EE121 /* HLSKeyboardInformation.m */; };
+		D538C49B183A858C00143F45 /* HLSNotifications.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52414BA0494007EE121 /* HLSNotifications.h */; };
+		D538C49C183A858C00143F45 /* HLSNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52514BA0494007EE121 /* HLSNotifications.m */; };
+		D538C49D183A858C00143F45 /* HLSOptionalFeatures.h in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E3EC815A38D62007E78BD /* HLSOptionalFeatures.h */; };
+		D538C49E183A858C00143F45 /* HLSRuntime.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52814BA0494007EE121 /* HLSRuntime.h */; };
+		D538C49F183A858C00143F45 /* HLSRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52914BA0494007EE121 /* HLSRuntime.m */; };
+		D538C4A0183A858C00143F45 /* HLSStandardFileManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA2DD61679E3B10011CFDA /* HLSStandardFileManager.h */; };
+		D538C4A1183A858C00143F45 /* HLSStandardFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA2DD71679E3B20011CFDA /* HLSStandardFileManager.m */; };
+		D538C4A2183A858C00143F45 /* HLSUserInterfaceLock.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52A14BA0494007EE121 /* HLSUserInterfaceLock.h */; };
+		D538C4A3183A858C00143F45 /* HLSUserInterfaceLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52B14BA0494007EE121 /* HLSUserInterfaceLock.m */; };
+		D538C4A4183A858C00143F45 /* HLSValidable.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52C14BA0494007EE121 /* HLSValidable.h */; };
+		D538C4A5183A858C00143F45 /* HLSValidators.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52D14BA0494007EE121 /* HLSValidators.h */; };
+		D538C4A6183A858C00143F45 /* HLSValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52E14BA0494007EE121 /* HLSValidators.m */; };
+		D538C4A7183A858C00143F45 /* HLSVector.h in Sources */ = {isa = PBXBuildFile; fileRef = 6F8366041588CC690044E572 /* HLSVector.h */; };
+		D538C4A8183A858C00143F45 /* HLSVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8366051588CC690044E572 /* HLSVector.m */; };
+		D538C4A9183A858C00143F45 /* HLSZeroingWeakRef.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FB991F31523A89000E13BED /* HLSZeroingWeakRef.h */; };
+		D538C4AA183A858C00143F45 /* HLSZeroingWeakRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB991F41523A89000E13BED /* HLSZeroingWeakRef.m */; };
+		D538C4AB183A858C00143F45 /* NSArray+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52F14BA0494007EE121 /* NSArray+HLSExtensions.h */; };
+		D538C4AC183A858C00143F45 /* NSArray+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53014BA0494007EE121 /* NSArray+HLSExtensions.m */; };
+		D538C4AD183A858C00143F45 /* NSBundle+HLSDynamicLocalization.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53114BA0494007EE121 /* NSBundle+HLSDynamicLocalization.h */; };
+		D538C4AE183A858C00143F45 /* NSBundle+HLSDynamicLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53214BA0494007EE121 /* NSBundle+HLSDynamicLocalization.m */; };
+		D538C4AF183A858C00143F45 /* NSBundle+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53314BA0494007EE121 /* NSBundle+HLSExtensions.h */; };
+		D538C4B0183A858C00143F45 /* NSBundle+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53414BA0494007EE121 /* NSBundle+HLSExtensions.m */; };
+		D538C4B1183A858C00143F45 /* NSCalendar+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53514BA0494007EE121 /* NSCalendar+HLSExtensions.h */; };
+		D538C4B2183A858C00143F45 /* NSCalendar+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53614BA0494007EE121 /* NSCalendar+HLSExtensions.m */; };
+		D538C4B3183A858C00143F45 /* NSData+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53714BA0494007EE121 /* NSData+HLSExtensions.h */; };
+		D538C4B4183A858C00143F45 /* NSData+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53814BA0494007EE121 /* NSData+HLSExtensions.m */; };
+		D538C4B5183A858C00143F45 /* NSDate+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53914BA0494007EE121 /* NSDate+HLSExtensions.h */; };
+		D538C4B6183A858C00143F45 /* NSDate+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53A14BA0494007EE121 /* NSDate+HLSExtensions.m */; };
+		D538C4B7183A858C00143F45 /* NSDateFormatter+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53B14BA0494007EE121 /* NSDateFormatter+HLSExtensions.h */; };
+		D538C4B8183A858C00143F45 /* NSDateFormatter+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53C14BA0494007EE121 /* NSDateFormatter+HLSExtensions.m */; };
+		D538C4B9183A858C00143F45 /* NSDictionary+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53D14BA0494007EE121 /* NSDictionary+HLSExtensions.h */; };
+		D538C4BA183A858C00143F45 /* NSDictionary+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53E14BA0494007EE121 /* NSDictionary+HLSExtensions.m */; };
+		D538C4BB183A858C00143F45 /* NSError+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE53F14BA0494007EE121 /* NSError+HLSExtensions.h */; };
+		D538C4BC183A858C00143F45 /* NSError+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54014BA0494007EE121 /* NSError+HLSExtensions.m */; };
+		D538C4BD183A858C00143F45 /* NSMutableArray+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D46FB15761AA500EF5E4F /* NSMutableArray+HLSExtensions.h */; };
+		D538C4BE183A858C00143F45 /* NSMutableArray+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D46FC15761AA500EF5E4F /* NSMutableArray+HLSExtensions.m */; };
+		D538C4BF183A858C00143F45 /* NSObject+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54114BA0494007EE121 /* NSObject+HLSExtensions.h */; };
+		D538C4C0183A858C00143F45 /* NSObject+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54214BA0494007EE121 /* NSObject+HLSExtensions.m */; };
+		D538C4C1183A858C00143F45 /* NSSet+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D46F715761A8600EF5E4F /* NSSet+HLSExtensions.h */; };
+		D538C4C2183A858C00143F45 /* NSSet+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D46F815761A8600EF5E4F /* NSSet+HLSExtensions.m */; };
+		D538C4C3183A858C00143F45 /* NSString+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54314BA0494007EE121 /* NSString+HLSExtensions.h */; };
+		D538C4C4183A858C00143F45 /* NSString+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54414BA0494007EE121 /* NSString+HLSExtensions.m */; };
+		D538C4C5183A858C00143F45 /* NSTimeZone+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54514BA0494007EE121 /* NSTimeZone+HLSExtensions.h */; };
+		D538C4C6183A858C00143F45 /* NSTimeZone+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54614BA0494007EE121 /* NSTimeZone+HLSExtensions.m */; };
+		D538C4C7183A858C00143F45 /* NSURLRequest+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8CB881574BFC10014B37B /* NSURLRequest+HLSExtensions.h */; };
+		D538C4C8183A858C00143F45 /* NSURLRequest+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8CB891574BFC10014B37B /* NSURLRequest+HLSExtensions.m */; };
+		D538C4C9183A858C00143F45 /* UIColor+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54714BA0494007EE121 /* UIColor+HLSExtensions.h */; };
+		D538C4CA183A858C00143F45 /* UIColor+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54814BA0494007EE121 /* UIColor+HLSExtensions.m */; };
+		D538C4CB183A858C00143F45 /* UIControl+HLSExclusiveTouch.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54914BA0494007EE121 /* UIControl+HLSExclusiveTouch.h */; };
+		D538C4CC183A858C00143F45 /* UIControl+HLSExclusiveTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54A14BA0494007EE121 /* UIControl+HLSExclusiveTouch.m */; };
+		D538C4CD183A858C00143F45 /* UIImage+HLSExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54B14BA0494007EE121 /* UIImage+HLSExtensions.h */; };
+		D538C4CE183A858C00143F45 /* UIImage+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE54C14BA0494007EE121 /* UIImage+HLSExtensions.m */; };
+		D538C4CF183A862600143F45 /* HLSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51314BA0494007EE121 /* HLSAnimation.m */; };
+		D538C4D0183A862600143F45 /* HLSAnimationStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCFEA4815E37E25002CAF9E /* HLSAnimationStep.m */; };
+		D538C4D1183A862600143F45 /* HLSLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5BD9915E28CBB00E5182E /* HLSLayerAnimation.m */; };
+		D538C4D2183A862600143F45 /* HLSLayerAnimationStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5BDBF15E34A8F00E5182E /* HLSLayerAnimationStep.m */; };
+		D538C4D3183A862600143F45 /* HLSObjectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F97E17715E60C6A00EF6F62 /* HLSObjectAnimation.m */; };
+		D538C4D4183A862600143F45 /* HLSViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51714BA0494007EE121 /* HLSViewAnimation.m */; };
+		D538C4D5183A862600143F45 /* HLSViewAnimationStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51514BA0494007EE121 /* HLSViewAnimationStep.m */; };
+		D538C4D6183A863100143F45 /* HLSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE51214BA0494007EE121 /* HLSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4D7183A863100143F45 /* HLSAnimationStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCFEA4715E37E25002CAF9E /* HLSAnimationStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4D8183A863100143F45 /* HLSAnimationStep+Friend.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F97E17215E6054000EF6F62 /* HLSAnimationStep+Friend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4D9183A863100143F45 /* HLSAnimationStep+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCFEA6015E3AAC5002CAF9E /* HLSAnimationStep+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4DA183A863100143F45 /* HLSLayerAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA5BD9815E28CBB00E5182E /* HLSLayerAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4DB183A863100143F45 /* HLSLayerAnimation+Friend.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB8E66B15F3D91E00CA4037 /* HLSLayerAnimation+Friend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4DC183A863100143F45 /* HLSLayerAnimationStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA5BDBE15E34A8F00E5182E /* HLSLayerAnimationStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4DD183A863100143F45 /* HLSObjectAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCFEA5815E390A6002CAF9E /* HLSObjectAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4DE183A863100143F45 /* HLSObjectAnimation+Friend.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB8E67515F3EDD300CA4037 /* HLSObjectAnimation+Friend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4DF183A863100143F45 /* HLSViewAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE51614BA0494007EE121 /* HLSViewAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4E0183A863100143F45 /* HLSViewAnimation+Friend.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB8E67615F3EDD300CA4037 /* HLSViewAnimation+Friend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4E1183A863100143F45 /* HLSViewAnimationStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE51414BA0494007EE121 /* HLSViewAnimationStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D538C4E2183A864900143F45 /* CALayer+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F41D22A15E6A527009A2384 /* CALayer+HLSExtensions.m */; };
+		D538C4E3183A864C00143F45 /* CALayer+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F41D22915E6A527009A2384 /* CALayer+HLSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5D1F2AD183A8673001D7457 /* HLSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE55914BA0494007EE121 /* HLSLogger.m */; };
+		D5D1F2AE183A8678001D7457 /* HLSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE55814BA0494007EE121 /* HLSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5E6088E183A869700CC9D56 /* HLSFloat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE52114BA0494007EE121 /* HLSFloat.m */; };
+		D5E6088F183A869C00CC9D56 /* HLSAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE51A14BA0494007EE121 /* HLSAssert.m */; };
+		D5E60890183A869E00CC9D56 /* HLSFloat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE52014BA0494007EE121 /* HLSFloat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5E60891183A86A200CC9D56 /* HLSAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE51914BA0494007EE121 /* HLSAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA838787131EAD1000ECAED3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA838786131EAD1000ECAED3 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -227,6 +389,13 @@
 			remoteInfo = "CoconutKit-resources";
 		};
 		6F000159156BD5510055CED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F000153156BD5310055CED7 /* CoconutKit-resources.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F44EA05156BB2AF00B45BB4;
+			remoteInfo = "CoconutKit-resources";
+		};
+		D538C36A183A853A00143F45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6F000153156BD5310055CED7 /* CoconutKit-resources.xcodeproj */;
 			proxyType = 1;
@@ -449,6 +618,8 @@
 		AA747D9E0F9514B9006C5449 /* CoconutKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoconutKit-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libCoconutKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoconutKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D538C367183A82D100143F45 /* libCoconutKitAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoconutKitAnimation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D538C442183A853A00143F45 /* libCoconutKitCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoconutKitCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA838786131EAD1000ECAED3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -466,6 +637,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D538C35D183A82D100143F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D538C35E183A82D100143F45 /* QuartzCore.framework in Frameworks */,
+				D538C35F183A82D100143F45 /* CoreData.framework in Frameworks */,
+				D538C360183A82D100143F45 /* Foundation.framework in Frameworks */,
+				D538C361183A82D100143F45 /* CoreGraphics.framework in Frameworks */,
+				D538C362183A82D100143F45 /* UIKit.framework in Frameworks */,
+				D538C363183A82D100143F45 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D538C438183A853A00143F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D538C439183A853A00143F45 /* QuartzCore.framework in Frameworks */,
+				D538C43A183A853A00143F45 /* CoreData.framework in Frameworks */,
+				D538C43B183A853A00143F45 /* Foundation.framework in Frameworks */,
+				D538C43C183A853A00143F45 /* CoreGraphics.framework in Frameworks */,
+				D538C43D183A853A00143F45 /* UIKit.framework in Frameworks */,
+				D538C43E183A853A00143F45 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -473,6 +670,8 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libCoconutKit.a */,
+				D538C367183A82D100143F45 /* libCoconutKitAnimation.a */,
+				D538C442183A853A00143F45 /* libCoconutKitCore.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -916,6 +1115,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D538C290183A82D100143F45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D538C4D6183A863100143F45 /* HLSAnimation.h in Headers */,
+				D538C4D7183A863100143F45 /* HLSAnimationStep.h in Headers */,
+				D538C4D8183A863100143F45 /* HLSAnimationStep+Friend.h in Headers */,
+				D538C4D9183A863100143F45 /* HLSAnimationStep+Protected.h in Headers */,
+				D538C4DA183A863100143F45 /* HLSLayerAnimation.h in Headers */,
+				D538C4DB183A863100143F45 /* HLSLayerAnimation+Friend.h in Headers */,
+				D538C4DC183A863100143F45 /* HLSLayerAnimationStep.h in Headers */,
+				D5253993183A8709006FF1BB /* CAMediaTimingFunction+HLSExtensions.h in Headers */,
+				D538C4DD183A863100143F45 /* HLSObjectAnimation.h in Headers */,
+				D538C4E3183A864C00143F45 /* CALayer+HLSExtensions.h in Headers */,
+				D538C4DE183A863100143F45 /* HLSObjectAnimation+Friend.h in Headers */,
+				D525399A183A874A006FF1BB /* NSArray+HLSExtensions.h in Headers */,
+				D538C4DF183A863100143F45 /* HLSViewAnimation.h in Headers */,
+				D538C4E0183A863100143F45 /* HLSViewAnimation+Friend.h in Headers */,
+				D5253995183A8730006FF1BB /* HLSConverters.h in Headers */,
+				D538C4E1183A863100143F45 /* HLSViewAnimationStep.h in Headers */,
+				D5253999183A8741006FF1BB /* HLSUserInterfaceLock.h in Headers */,
+				D5D1F2AE183A8678001D7457 /* HLSLogger.h in Headers */,
+				D5253996183A873B006FF1BB /* HLSZeroingWeakRef.h in Headers */,
+				D5E60890183A869E00CC9D56 /* HLSFloat.h in Headers */,
+				D5080E61183A86E00015D0D6 /* HLSVector.h in Headers */,
+				D525399B183A874F006FF1BB /* NSString+HLSExtensions.h in Headers */,
+				D5E60891183A86A200CC9D56 /* HLSAssert.h in Headers */,
+				D538C291183A82D100143F45 /* CoconutKit-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D538C36B183A853A00143F45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D538C443183A855600143F45 /* CALayer+HLSExtensions.h in Headers */,
+				D538C445183A855600143F45 /* CAMediaTimingFunction+HLSExtensions.h in Headers */,
+				D538C447183A855600143F45 /* HLSApplicationPreLoader.h in Headers */,
+				D538C449183A855600143F45 /* HLSAssert.h in Headers */,
+				D538C44B183A855600143F45 /* HLSConverters.h in Headers */,
+				D538C44D183A855600143F45 /* HLSError.h in Headers */,
+				D538C44F183A855600143F45 /* HLSFileManager.h in Headers */,
+				D538C451183A855600143F45 /* HLSFloat.h in Headers */,
+				D538C453183A855600143F45 /* HLSKeyboardInformation.h in Headers */,
+				D538C454183A855600143F45 /* HLSKeyboardInformation.m in Headers */,
+				D538C455183A855600143F45 /* HLSNotifications.h in Headers */,
+				D538C457183A855600143F45 /* HLSOptionalFeatures.h in Headers */,
+				D538C458183A855600143F45 /* HLSRuntime.h in Headers */,
+				D538C45A183A855600143F45 /* HLSStandardFileManager.h in Headers */,
+				D538C45C183A855600143F45 /* HLSUserInterfaceLock.h in Headers */,
+				D538C45E183A855600143F45 /* HLSValidable.h in Headers */,
+				D538C45F183A855600143F45 /* HLSValidators.h in Headers */,
+				D538C461183A855600143F45 /* HLSVector.h in Headers */,
+				D538C463183A855600143F45 /* HLSZeroingWeakRef.h in Headers */,
+				D538C465183A855600143F45 /* NSArray+HLSExtensions.h in Headers */,
+				D538C467183A855600143F45 /* NSBundle+HLSDynamicLocalization.h in Headers */,
+				D538C469183A855600143F45 /* NSBundle+HLSExtensions.h in Headers */,
+				D538C46B183A855600143F45 /* NSCalendar+HLSExtensions.h in Headers */,
+				D538C46D183A855600143F45 /* NSData+HLSExtensions.h in Headers */,
+				D538C46F183A855600143F45 /* NSDate+HLSExtensions.h in Headers */,
+				D538C471183A855600143F45 /* NSDateFormatter+HLSExtensions.h in Headers */,
+				D538C473183A855600143F45 /* NSDictionary+HLSExtensions.h in Headers */,
+				D538C475183A855600143F45 /* NSError+HLSExtensions.h in Headers */,
+				D538C477183A855600143F45 /* NSMutableArray+HLSExtensions.h in Headers */,
+				D538C479183A855600143F45 /* NSObject+HLSExtensions.h in Headers */,
+				D538C47B183A855600143F45 /* NSSet+HLSExtensions.h in Headers */,
+				D538C47D183A855600143F45 /* NSString+HLSExtensions.h in Headers */,
+				D538C47F183A855600143F45 /* NSTimeZone+HLSExtensions.h in Headers */,
+				D538C481183A855600143F45 /* NSURLRequest+HLSExtensions.h in Headers */,
+				D538C483183A855600143F45 /* UIColor+HLSExtensions.h in Headers */,
+				D538C485183A855600143F45 /* UIControl+HLSExclusiveTouch.h in Headers */,
+				D538C487183A855600143F45 /* UIImage+HLSExtensions.h in Headers */,
+				D538C36C183A853A00143F45 /* CoconutKit-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXLegacyTarget section */
@@ -952,6 +1227,41 @@
 			name = CoconutKit;
 			productName = CoconutKit;
 			productReference = D2AAC07E0554694100DB518D /* libCoconutKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D538C28D183A82D100143F45 /* CoconutKitAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D538C364183A82D100143F45 /* Build configuration list for PBXNativeTarget "CoconutKitAnimation" */;
+			buildPhases = (
+				D538C290183A82D100143F45 /* Headers */,
+				D538C2FE183A82D100143F45 /* Sources */,
+				D538C35D183A82D100143F45 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoconutKitAnimation;
+			productName = CoconutKit;
+			productReference = D538C367183A82D100143F45 /* libCoconutKitAnimation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D538C368183A853A00143F45 /* CoconutKitCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D538C43F183A853A00143F45 /* Build configuration list for PBXNativeTarget "CoconutKitCore" */;
+			buildPhases = (
+				D538C36B183A853A00143F45 /* Headers */,
+				D538C3D9183A853A00143F45 /* Sources */,
+				D538C438183A853A00143F45 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D538C369183A853A00143F45 /* PBXTargetDependency */,
+			);
+			name = CoconutKitCore;
+			productName = CoconutKit;
+			productReference = D538C442183A853A00143F45 /* libCoconutKitCore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -994,6 +1304,8 @@
 			targets = (
 				D2AAC07D0554694100DB518D /* CoconutKit */,
 				6F159C6D15A5D7720020AFAC /* CoconutKit-staticframework */,
+				D538C28D183A82D100143F45 /* CoconutKitAnimation */,
+				D538C368183A853A00143F45 /* CoconutKitCore */,
 			);
 		};
 /* End PBXProject section */
@@ -1110,6 +1422,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D538C2FE183A82D100143F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5253998183A873F006FF1BB /* HLSUserInterfaceLock.m in Sources */,
+				D525399C183A8752006FF1BB /* NSString+HLSExtensions.m in Sources */,
+				D525399D183A8755006FF1BB /* NSArray+HLSExtensions.m in Sources */,
+				D5253997183A873C006FF1BB /* HLSZeroingWeakRef.m in Sources */,
+				D5253994183A872C006FF1BB /* HLSConverters.m in Sources */,
+				D5080E62183A86E20015D0D6 /* HLSVector.m in Sources */,
+				D5E6088F183A869C00CC9D56 /* HLSAssert.m in Sources */,
+				D5E6088E183A869700CC9D56 /* HLSFloat.m in Sources */,
+				D538C4CF183A862600143F45 /* HLSAnimation.m in Sources */,
+				D538C4D0183A862600143F45 /* HLSAnimationStep.m in Sources */,
+				D538C4D1183A862600143F45 /* HLSLayerAnimation.m in Sources */,
+				D538C4D2183A862600143F45 /* HLSLayerAnimationStep.m in Sources */,
+				D538C4E2183A864900143F45 /* CALayer+HLSExtensions.m in Sources */,
+				D538C4D3183A862600143F45 /* HLSObjectAnimation.m in Sources */,
+				D5253992183A8703006FF1BB /* CAMediaTimingFunction+HLSExtensions.m in Sources */,
+				D538C4D4183A862600143F45 /* HLSViewAnimation.m in Sources */,
+				D538C4D5183A862600143F45 /* HLSViewAnimationStep.m in Sources */,
+				D5D1F2AD183A8673001D7457 /* HLSLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D538C3D9183A853A00143F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D538C489183A858C00143F45 /* CALayer+HLSExtensions.h in Sources */,
+				D538C48A183A858C00143F45 /* CALayer+HLSExtensions.m in Sources */,
+				D538C48B183A858C00143F45 /* CAMediaTimingFunction+HLSExtensions.h in Sources */,
+				D538C48C183A858C00143F45 /* CAMediaTimingFunction+HLSExtensions.m in Sources */,
+				D538C48D183A858C00143F45 /* HLSApplicationPreLoader.h in Sources */,
+				D538C48E183A858C00143F45 /* HLSApplicationPreLoader.m in Sources */,
+				D538C48F183A858C00143F45 /* HLSAssert.h in Sources */,
+				D538C490183A858C00143F45 /* HLSAssert.m in Sources */,
+				D538C491183A858C00143F45 /* HLSConverters.h in Sources */,
+				D538C492183A858C00143F45 /* HLSConverters.m in Sources */,
+				D538C493183A858C00143F45 /* HLSError.h in Sources */,
+				D538C494183A858C00143F45 /* HLSError.m in Sources */,
+				D538C495183A858C00143F45 /* HLSFileManager.h in Sources */,
+				D538C496183A858C00143F45 /* HLSFileManager.m in Sources */,
+				D538C497183A858C00143F45 /* HLSFloat.h in Sources */,
+				D538C498183A858C00143F45 /* HLSFloat.m in Sources */,
+				D538C499183A858C00143F45 /* HLSKeyboardInformation.h in Sources */,
+				D538C49A183A858C00143F45 /* HLSKeyboardInformation.m in Sources */,
+				D538C49B183A858C00143F45 /* HLSNotifications.h in Sources */,
+				D538C49C183A858C00143F45 /* HLSNotifications.m in Sources */,
+				D538C49D183A858C00143F45 /* HLSOptionalFeatures.h in Sources */,
+				D538C49E183A858C00143F45 /* HLSRuntime.h in Sources */,
+				D538C49F183A858C00143F45 /* HLSRuntime.m in Sources */,
+				D538C4A0183A858C00143F45 /* HLSStandardFileManager.h in Sources */,
+				D538C4A1183A858C00143F45 /* HLSStandardFileManager.m in Sources */,
+				D538C4A2183A858C00143F45 /* HLSUserInterfaceLock.h in Sources */,
+				D538C4A3183A858C00143F45 /* HLSUserInterfaceLock.m in Sources */,
+				D538C4A4183A858C00143F45 /* HLSValidable.h in Sources */,
+				D538C4A5183A858C00143F45 /* HLSValidators.h in Sources */,
+				D538C4A6183A858C00143F45 /* HLSValidators.m in Sources */,
+				D538C4A7183A858C00143F45 /* HLSVector.h in Sources */,
+				D538C4A8183A858C00143F45 /* HLSVector.m in Sources */,
+				D538C4A9183A858C00143F45 /* HLSZeroingWeakRef.h in Sources */,
+				D538C4AA183A858C00143F45 /* HLSZeroingWeakRef.m in Sources */,
+				D538C4AB183A858C00143F45 /* NSArray+HLSExtensions.h in Sources */,
+				D538C4AC183A858C00143F45 /* NSArray+HLSExtensions.m in Sources */,
+				D538C4AD183A858C00143F45 /* NSBundle+HLSDynamicLocalization.h in Sources */,
+				D538C4AE183A858C00143F45 /* NSBundle+HLSDynamicLocalization.m in Sources */,
+				D538C4AF183A858C00143F45 /* NSBundle+HLSExtensions.h in Sources */,
+				D538C4B0183A858C00143F45 /* NSBundle+HLSExtensions.m in Sources */,
+				D538C4B1183A858C00143F45 /* NSCalendar+HLSExtensions.h in Sources */,
+				D538C4B2183A858C00143F45 /* NSCalendar+HLSExtensions.m in Sources */,
+				D538C4B3183A858C00143F45 /* NSData+HLSExtensions.h in Sources */,
+				D538C4B4183A858C00143F45 /* NSData+HLSExtensions.m in Sources */,
+				D538C4B5183A858C00143F45 /* NSDate+HLSExtensions.h in Sources */,
+				D538C4B6183A858C00143F45 /* NSDate+HLSExtensions.m in Sources */,
+				D538C4B7183A858C00143F45 /* NSDateFormatter+HLSExtensions.h in Sources */,
+				D538C4B8183A858C00143F45 /* NSDateFormatter+HLSExtensions.m in Sources */,
+				D538C4B9183A858C00143F45 /* NSDictionary+HLSExtensions.h in Sources */,
+				D538C4BA183A858C00143F45 /* NSDictionary+HLSExtensions.m in Sources */,
+				D538C4BB183A858C00143F45 /* NSError+HLSExtensions.h in Sources */,
+				D538C4BC183A858C00143F45 /* NSError+HLSExtensions.m in Sources */,
+				D538C4BD183A858C00143F45 /* NSMutableArray+HLSExtensions.h in Sources */,
+				D538C4BE183A858C00143F45 /* NSMutableArray+HLSExtensions.m in Sources */,
+				D538C4BF183A858C00143F45 /* NSObject+HLSExtensions.h in Sources */,
+				D538C4C0183A858C00143F45 /* NSObject+HLSExtensions.m in Sources */,
+				D538C4C1183A858C00143F45 /* NSSet+HLSExtensions.h in Sources */,
+				D538C4C2183A858C00143F45 /* NSSet+HLSExtensions.m in Sources */,
+				D538C4C3183A858C00143F45 /* NSString+HLSExtensions.h in Sources */,
+				D538C4C4183A858C00143F45 /* NSString+HLSExtensions.m in Sources */,
+				D538C4C5183A858C00143F45 /* NSTimeZone+HLSExtensions.h in Sources */,
+				D538C4C6183A858C00143F45 /* NSTimeZone+HLSExtensions.m in Sources */,
+				D538C4C7183A858C00143F45 /* NSURLRequest+HLSExtensions.h in Sources */,
+				D538C4C8183A858C00143F45 /* NSURLRequest+HLSExtensions.m in Sources */,
+				D538C4C9183A858C00143F45 /* UIColor+HLSExtensions.h in Sources */,
+				D538C4CA183A858C00143F45 /* UIColor+HLSExtensions.m in Sources */,
+				D538C4CB183A858C00143F45 /* UIControl+HLSExclusiveTouch.h in Sources */,
+				D538C4CC183A858C00143F45 /* UIControl+HLSExclusiveTouch.m in Sources */,
+				D538C4CD183A858C00143F45 /* UIImage+HLSExtensions.h in Sources */,
+				D538C4CE183A858C00143F45 /* UIImage+HLSExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1117,6 +1531,11 @@
 			isa = PBXTargetDependency;
 			name = "CoconutKit-resources";
 			targetProxy = 6F000159156BD5510055CED7 /* PBXContainerItemProxy */;
+		};
+		D538C369183A853A00143F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CoconutKit-resources";
+			targetProxy = D538C36A183A853A00143F45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1219,6 +1638,90 @@
 			};
 			name = Release;
 		};
+		D538C365183A82D100143F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+					arm64,
+					armv7s,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/CoconutKit.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoconutKit-Prefix.pch";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DHLS_LOGGER";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PUBLIC_HEADERS_FOLDER_PATH = "${PRODUCT_NAME}";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 armv6";
+			};
+			name = Debug;
+		};
+		D538C366183A82D100143F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+					arm64,
+					armv7s,
+					i386,
+				);
+				DSTROOT = /tmp/CoconutKit.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoconutKit-Prefix.pch";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PUBLIC_HEADERS_FOLDER_PATH = "${PRODUCT_NAME}";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 armv6";
+			};
+			name = Release;
+		};
+		D538C440183A853A00143F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/CoconutKit.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoconutKit-Prefix.pch";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DHLS_LOGGER";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PUBLIC_HEADERS_FOLDER_PATH = "${PRODUCT_NAME}";
+			};
+			name = Debug;
+		};
+		D538C441183A853A00143F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/CoconutKit.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoconutKit-Prefix.pch";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PUBLIC_HEADERS_FOLDER_PATH = "${PRODUCT_NAME}";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1245,6 +1748,24 @@
 			buildConfigurations = (
 				6F159C6F15A5D7720020AFAC /* Debug */,
 				6F159C7015A5D7720020AFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D538C364183A82D100143F45 /* Build configuration list for PBXNativeTarget "CoconutKitAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D538C365183A82D100143F45 /* Debug */,
+				D538C366183A82D100143F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D538C43F183A853A00143F45 /* Build configuration list for PBXNativeTarget "CoconutKitCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D538C440183A853A00143F45 /* Debug */,
+				D538C441183A853A00143F45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
