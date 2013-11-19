@@ -21,7 +21,7 @@
  * Designated initializer: -init (create an animation step with default settings)
  */
 @interface HLSLayerAnimationStep : HLSAnimationStep {
-@private
+@protected
     CAMediaTimingFunction *m_timingFunction;
     UIView *m_dummyView;
     NSUInteger m_numberOfLayerAnimations;
