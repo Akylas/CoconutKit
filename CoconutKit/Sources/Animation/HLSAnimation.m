@@ -606,10 +606,14 @@ static NSString * const kDelayLayerAnimationTag = @"HLSDelayLayerAnimationStep";
 - (void)applicationWillEnterForeground:(NSNotification *)notification
 {
     if (m_runningBeforeEnteringBackground) {
+        //we need to retain here because playWithStartTime might stop the animation
+        // and thus release us. THen we want to call [self pause]...
+        [self retain];
         [self playWithStartTime:m_elapsedTime repeatCount:m_repeatCount];
         if (m_pausedBeforeEnteringBackground) {
             [self pause];
         }
+        [self release];
         
         m_runningBeforeEnteringBackground = NO;
         m_pausedBeforeEnteringBackground = NO;
