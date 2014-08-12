@@ -119,15 +119,9 @@ static NSString * const kDelayLayerAnimationTag = @"HLSDelayLayerAnimationStep";
 
 - (void)dealloc
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:UIApplicationDidEnterBackgroundNotification
-                                                  object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:UIApplicationWillEnterForegroundNotification
-                                                  object:nil];
-    
     [self cancel];
     
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
     self.animationSteps = nil;
     self.animationStepCopies = nil;
     self.animationStepsEnumerator = nil;
@@ -361,8 +355,8 @@ static NSString * const kDelayLayerAnimationTag = @"HLSDelayLayerAnimationStep";
                 [[HLSUserInterfaceLock sharedUserInterfaceLock] unlock];
             }
             
-            self.started = NO;
-            self.playing = NO;
+            m_started = NO;
+            m_playing = NO;
             
             if (! self.cancelling) {
                 if ([self.delegate respondsToSelector:@selector(animationDidStop:animated:)]) {
@@ -371,9 +365,9 @@ static NSString * const kDelayLayerAnimationTag = @"HLSDelayLayerAnimationStep";
             }
             
             // End of the animation
-            self.running = NO;
-            self.cancelling = NO;
-            self.terminating = NO;
+            m_running = NO;
+            m_cancelling = NO;
+            m_terminating = NO;
         }    
         // Repeat as needed
         else {

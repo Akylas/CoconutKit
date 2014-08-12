@@ -39,6 +39,7 @@
 - (id)init
 {
     if ((self = [super init])) {
+        m_delegate = nil;
         self.objectKeys = [NSMutableArray array];
         self.objectToObjectAnimationMap = [NSMutableDictionary dictionary];
         
@@ -94,7 +95,8 @@
 
 - (NSArray *)objects
 {
-    NSMutableArray *objects = [NSMutableArray array];
+    NSMutableArray *objects = [NSMutableArray arrayWithCapacity:[self.objectKeys count]];
+    if (!objects) return nil;
     for (NSValue *objectKey in self.objectKeys) {
         id object = [objectKey pointerValue];
         [objects addObject:object];
@@ -154,6 +156,7 @@
     if (! actuallyAnimated) {
         // Same remark as above
         [delegate animationStepDidStop:self animated:animated finished:YES];
+        self.delegate = nil;
     }
 }
 
