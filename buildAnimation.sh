@@ -9,8 +9,8 @@ PROJECT_NAME="CoconutKit"
 TARGET_NAME="CoconutKitAnimation"
 
 cd CoconutKit
-xcodebuild -project ${PROJECT_NAME}.xcodeproj -target ${TARGET_NAME} -configuration Release -sdk iphoneos${IOSSDK_VER} build
-xcodebuild -project ${PROJECT_NAME}.xcodeproj -target ${TARGET_NAME} -arch i386 -configuration Release -sdk iphonesimulator${IOSSDK_VER} build
+xcodebuild -project ${PROJECT_NAME}.xcodeproj -target ${TARGET_NAME} -configuration Release build
+xcodebuild -project ${PROJECT_NAME}.xcodeproj -target ${TARGET_NAME} -arch i386 -configuration Release build
 
 cd Build
 
