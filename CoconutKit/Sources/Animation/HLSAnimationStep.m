@@ -256,7 +256,7 @@
     if (! self.terminating) {
         // This method is meant to be called in the animation stop callback, which is called for animations
         // with animated = YES
-        [self.delegate animationStepDidStop:self animated:YES finished:YES];
+        [self.delegate animationStepDidStop:self animated:YES finished:finished];
     }
     
     self.terminating = NO;
