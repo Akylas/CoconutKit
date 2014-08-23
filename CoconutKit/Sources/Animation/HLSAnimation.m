@@ -329,7 +329,7 @@ static NSString * const kDelayLayerAnimationTag = @"HLSDelayLayerAnimationStep";
     // Proceeed with the next step (if any)
     self.currentAnimationStep = [self.animationStepsEnumerator nextObject];
     if (self.currentAnimationStep) {
-        [self playAnimationStep:self.currentAnimationStep animated:animated];
+        [self playAnimationStep:self.currentAnimationStep animated:(self.cancelling || self.terminating) ? NO : m_animated];
     }
     // Done with the animation
     else {
