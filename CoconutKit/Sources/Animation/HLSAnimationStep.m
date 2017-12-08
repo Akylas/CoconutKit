@@ -95,13 +95,26 @@
 
 - (NSArray *)objects
 {
-    NSMutableArray *objects = [NSMutableArray arrayWithCapacity:[self.objectKeys count]];
-    if (!objects) return nil;
-    for (NSValue *objectKey in self.objectKeys) {
-        id object = [objectKey pointerValue];
-        [objects addObject:object];
+    @synchronized(m_objectKeys) {
+        NSMutableArray *objects = [NSMutableArray arrayWithCapacity:[self.objectKeys count]];
+        if (!objects) return nil;
+        for (NSValue *objectKey in self.objectKeys) {
+            id object = [objectKey pointerValue];
+            [objects addObject:object];
+        }
+        return [NSArray arrayWithArray:objects];
     }
-    return [NSArray arrayWithArray:objects];
+    
+}
+
+-(void)setObjectKeys:(NSMutableArray *)objectKeys
+{
+    @synchronized(m_objectKeys) {
+        if (m_objectKeys) {
+            [m_objectKeys release];
+        }
+        m_objectKeys = [objectKeys retain];
+    }
 }
 
 #pragma mark Animations in the step
@@ -119,7 +132,9 @@
     }
     
     NSValue *objectKey = [NSValue valueWithPointer:object];
-    [self.objectKeys addObject:objectKey];
+     @synchronized(m_objectKeys) {
+         [self.objectKeys addObject:objectKey];
+     }
     [self.objectToObjectAnimationMap setObject:[[objectAnimation copy] autorelease] forKey:objectKey];
 }
 
